@@ -1,0 +1,19 @@
+{
+  "name": "nexter_site",
+  "version": "1.0.0",
+  "description": "The little project of a fictional company that sells luxury homes, this is an exercise which uses CSS Grid.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenryGarmendia/nexter_site.git"
+  },
+  "author": "Henry Garmendia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HenryGarmendia/nexter_site/issues"
+  },
+  "homepage": "https://github.com/HenryGarmendia/nexter_site#readme"
+}
