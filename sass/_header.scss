@@ -22,12 +22,30 @@
   }
 
   &__seenon-text {
+    align-items: center;
+    color: $color-grey-light-2;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.5rem;
+    font-size: 1.6rem;
 
+    &::after,
+    &::before {
+      background-color: currentColor;
+      content: "";
+      display: block;
+      height: 1px;
+    }
   }
 
   &__seenon-logos {
+    display: grid;
+    grid-column-gap: 3rem;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
 
     img {
+      filter: brightness(70%);
       height: 2.5rem;
     }
   }
